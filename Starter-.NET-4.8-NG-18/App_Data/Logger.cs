@@ -1,21 +1,28 @@
 ﻿using System;
 using System.Configuration;
 using System.IO;
+using System.Web;
 
 namespace Starter_.NET_4._8_NG_18.App_Data
 {
     public class Logger
     {
-        private static string logPath = ConfigurationManager.AppSettings["logPath"];
+        private static string logPathAppStng = ConfigurationManager.AppSettings["logPath"];
+        private static string logPath = HttpContext.Current.Server.MapPath(logPathAppStng);
+
+        static Logger()
+        {
+            string[] parts = logPath.Split('\\');
+            string dirPath = logPath.Replace(parts[parts.Length - 1], "");
+            //C:\Users\Administrator\source\repos\Testings\WindowsCleaner\WindowsCleaner\Log\log.txt
+            Directory.CreateDirectory(dirPath);
+        }
 
         public static void Log(string message)
         {
             try
             {
-                using (StreamWriter file = new StreamWriter(logPath, true))
-                {
-                    file.WriteLine($"Log - {DateTime.Now.ToString()} - {message}");
-                }
+                File.AppendAllLines(logPath, new string[] { $"Log - {DateTime.Now.ToString()} - {message}" });
             }
             catch (Exception exLog)
             {
@@ -28,11 +35,9 @@ namespace Starter_.NET_4._8_NG_18.App_Data
         {
             try
             {
-                string logPath = ConfigurationManager.AppSettings["logPath"];
-                using (StreamWriter file = new StreamWriter(logPath, true))
-                {
-                    file.WriteLine($"Error - {DateTime.Now.ToString()} - {message} :: {ex?.ToString()}");
-                }
+                File.AppendAllLines(logPath, new string[] {
+                    $"Error - {DateTime.Now.ToString()} - {message} :: {ex?.ToString()}"
+                });
             }
             catch (Exception exLog)
             {

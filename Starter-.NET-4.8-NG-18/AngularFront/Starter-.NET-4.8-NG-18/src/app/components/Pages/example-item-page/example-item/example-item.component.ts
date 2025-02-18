@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ExampleItem } from '../../../../models/example-item';
+import { ExampleItem } from '../../../../models/example-item.model';
 import { ExampleItemService } from '../../../../services/simple-service.service';
 
 @Component({

@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { inject, Injectable } from '@angular/core';
 import { BehaviorSubject, filter, Observable } from 'rxjs';
-import { ExampleItem } from '../models/example-item';
+import { ExampleItem } from '../models/example-item.model';
 import { environment } from '../../environments/environment';
 
 class SimpleService<T> {
