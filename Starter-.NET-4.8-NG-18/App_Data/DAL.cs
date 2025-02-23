@@ -306,6 +306,13 @@ namespace Starter_.NET_4._8_NG_18.App_Data
             return items.ToArray();
         }
 
+
+        public static T[] select<T>()
+        {
+            string tableName = typeof(T).Name;
+            return select<T>("select * from " + tableName);
+        }
+
         public static T[] select<T>(string cmdString)
         {
             using (SqlCommand _cmd = new SqlCommand(cmdString))
