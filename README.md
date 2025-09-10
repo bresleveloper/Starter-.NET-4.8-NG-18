@@ -4,11 +4,16 @@ project is C# WebApi 2.0 upon .NET Framework 4.8 (not core), in integrated angul
 
 implements `SimpleController`, `simpleService` for super quick implementation for controllers and ng-services. read the files to see examples.
 
+to install and use angular material `ng add @angular/material@18`
+
 ## How to Dubplicate 
 use `https://www.npmjs.com/package/@bresleveloper/starter`
 
 * `npm i @bresleveloper/starter -g` (currently not working without -g)
-* `bresleveloper new <projectName>`
+* `bresleveloper new <projectName>` (should change everything to your `<ProjectName>`)
 
-## monitor claude code
-`npx ccusage@latest` from terminal
+## claude code
+* monitor - `npx ccusage@latest` from terminal
+* added `CLAUDE.md` for him to understand the project (`claude -> /init`)
+* added agents
+
