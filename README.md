@@ -9,3 +9,6 @@ use `https://www.npmjs.com/package/@bresleveloper/starter`
 
 * `npm i @bresleveloper/starter -g` (currently not working without -g)
 * `bresleveloper new <projectName>`
+
+## monitor claude code
+`npx ccusage@latest` from terminal
