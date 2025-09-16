@@ -6,7 +6,7 @@ decided to keep things here for easier management and ref.
 
 Context Engineering PRP (Product Requirement Prompts)
 
-1. [basics by humanlayer]([https://link-url-here.org](https://github.com/humanlayer/12-factor-agents/))
+1. [basics by humanlayer](https://github.com/humanlayer/12-factor-agents/)
 2. [maybe even simpler, by humanlayer](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md)
 3. [basics for PRP](https://github.com/Wirasm/PRPs-agentic-eng/)
 
