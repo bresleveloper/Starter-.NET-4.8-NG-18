@@ -27,4 +27,7 @@ if errorlevel 1 (
 
 echo Starting backend with IIS Express...
 cd ndj-claude-agents
-"%programfiles%\IIS Express\iisexpress.exe" /path:"%cd%" /port:49476
+
+REM "%programfiles%\IIS Express\iisexpress.exe" /path:"%cd%" /port:49476 
+REM you might need to change the /site: agrument bach to original value, see https://github.com/bresleveloper/Starter-.NET-4.8-NG-18/blob/master/cgo.bat
+"%programfiles%\IIS Express\iisexpress.exe" /config:"%cd%\.vs\Starter-.NET-4.8-NG-18\config\applicationhost.config" /site:Starter-.NET-4.8-NG-18
