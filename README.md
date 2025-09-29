@@ -15,10 +15,18 @@ use `https://www.npmjs.com/package/@bresleveloper/starter`
 * `bresleveloper new <projectName>` (should change everything to your `<ProjectName>`)
 
 
+## Usefull short-hand files:
+* `cgo.bat` - run c# api server (cant debug)
+* `nggo.bat` - run angular serve from root
+* `ngb.bat` - run angular build with `--base-href=/dist/` from root
+* `rogue.ps1` - find rogue node processes (angular or other), use `rogue.ps1 <pid>` to kill
+
 
 ## claude code
 * monitor - `npx ccusage@latest` from terminal
 * added `CLAUDE.md` for him to understand the project (`claude -> /init`)
 * added agents
 * example super simple prompt for agent `angular agent based on CLAUDE.md`
+* added [ContextEngineeringRef.md](https://github.com/bresleveloper/Starter-.NET-4.8-NG-18/blob/master/ContextEngineeringRef.md) for some resources about Context Engineering
+
 
