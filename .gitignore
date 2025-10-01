@@ -3,6 +3,11 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# protect secret. remove if you want to share webConfig in your repo
+*.config
+[Ww]eb.config
+
+
 # User-specific files
 *.rsuser
 *.suo
