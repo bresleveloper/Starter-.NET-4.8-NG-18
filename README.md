@@ -20,6 +20,7 @@ use `https://www.npmjs.com/package/@bresleveloper/starter`
 * `nggo.bat` - run angular serve from root
 * `ngb.bat` - run angular build with `--base-href=/dist/` from root
 * `rogue.ps1` - find rogue node processes (angular or other), use `rogue.ps1 <pid>` to kill
+* `cli.example.bat` - in another project i created working cli, i put here the example TBD make another that is tailored to this template
 
 
 ## claude code
