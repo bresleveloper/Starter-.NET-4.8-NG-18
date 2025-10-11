@@ -33,7 +33,8 @@ if "%CHOICE%"=="6" goto DO_FULL
 
 :DO_FULL
 dotnet build Starter-.NET-4.8-NG-18.sln
-npm run build --prefix Starter-.NET-4.8-NG-18/AngularFront/Starter-.NET-4.8-NG-18
+::npm's are batches themselves and calling them without call will stop the script
+call npm run build --prefix Starter-.NET-4.8-NG-18/AngularFront/Starter-.NET-4.8-NG-18
 dotnet run --project Starter-.NET-4.8-NG-18.Web
 goto END
 
@@ -73,4 +74,5 @@ goto END
 
 :END
 echo Exiting CLI.
+
 exit
