@@ -8,11 +8,12 @@ to install and use angular material `ng add @angular/material@18` and uncomment 
 
 
 
-## How to Dubplicate 
+## How to Duplicate 
 use `https://www.npmjs.com/package/@bresleveloper/starter`
 
 * `npm i @bresleveloper/starter -g` (currently not working without -g)
 * `bresleveloper new <projectName>` (should change everything to your `<ProjectName>`)
+* p.s. i added `bresleveloper dup` to clone any git repo
 
 
 ## Usefull short-hand files:
@@ -21,6 +22,10 @@ use `https://www.npmjs.com/package/@bresleveloper/starter`
 * `ngb.bat` - run angular build with `--base-href=/dist/` from root
 * `rogue.ps1` - find rogue node processes (angular or other), use `rogue.ps1 <pid>` to kill
 * `cli.example.bat` - in another project i created working cli, i put here the example TBD make another that is tailored to this template
+* `gitme.bat` - full git push with comment
+
+* ##### Remove all bin and obj folders from Git tracking (recursively) on Windows PowerShell:
+`Get-ChildItem -Recurse -Directory -Include bin,obj | ForEach-Object { git rm -r --cached $_.FullName }`
 
 
 ## claude code
