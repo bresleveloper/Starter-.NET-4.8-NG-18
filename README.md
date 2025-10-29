@@ -29,6 +29,8 @@ use `https://www.npmjs.com/package/@bresleveloper/starter`
 
 
 ## claude code
+
+### general 
 * monitor - `npx ccusage@latest` from terminal
 * added `CLAUDE.md` for him to understand the project (`claude -> /init`)
 * added agents
@@ -36,3 +38,10 @@ use `https://www.npmjs.com/package/@bresleveloper/starter`
 * added [ContextEngineeringRef.md](https://github.com/bresleveloper/Starter-.NET-4.8-NG-18/blob/master/ContextEngineeringRef.md) for some resources about Context Engineering
 
 
+### claude code commands added
+
+i like to use `tasks` folder to write my tasks for claude. i also like to use is for my logs files. i also like to have `console.log` file to quickly copy browser console for errors. so eventually its my goto file for errors or small prompts/tasks. therefor these 2 were born:
+
+
+* `l.md` -> `/l` , read tasks/console.log
+* `t.md` -> `/t` or `/t taskName`, create `tasks/taskName.md` with useful template
