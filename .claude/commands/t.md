@@ -31,4 +31,5 @@ instructions:
 other instructions:
 1. use minimum code required
 2. analyze the entire flow and code to achieve best implementation plan
-3. write your plan to "tasks/$1.plan.md"
+3. ask me clarifications questions
+4. write your plan to "tasks/$1.plan.md"
