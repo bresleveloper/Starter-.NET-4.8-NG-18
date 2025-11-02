@@ -45,3 +45,9 @@ i like to use `tasks` folder to write my tasks for claude. i also like to use is
 
 * `l.md` -> `/l` , read tasks/console.log
 * `t.md` -> `/t` or `/t taskName`, create `tasks/taskName.md` with useful template
+
+
+
+### MCP
+
+follow instuctions in `MCP/mssql-config.md`

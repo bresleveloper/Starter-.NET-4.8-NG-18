@@ -1,0 +1,17 @@
+{
+    "mcpServers": {
+      "mssql": {
+        "type": "stdio",
+        "command": "node",
+        "args": ["C:/Users/Administrator/Desktop/MCP/mssql-mcp/dist/index.js"],
+        "env": {
+          "SERVER_NAME": "localhost\\SQLEXPRESS",
+          "DATABASE_NAME": "MyDatabaseCatalog",
+          "SQL_USER": "mcp_user",
+          "SQL_PASSWORD": "123tT!",
+          "READONLY": "true",
+          "TRUST_SERVER_CERTIFICATE": "true"
+        }
+      }
+    }
+  }
