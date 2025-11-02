@@ -27,6 +27,9 @@ use `https://www.npmjs.com/package/@bresleveloper/starter`
 * ##### Remove all bin and obj folders from Git tracking (recursively) on Windows PowerShell:
 `Get-ChildItem -Recurse -Directory -Include bin,obj | ForEach-Object { git rm -r --cached $_.FullName }`
 
+* ##### git remove file from cashing:
+`git rm --cached <fullpath>`
+
 
 ## claude code
 
