@@ -28,7 +28,8 @@ use `https://www.npmjs.com/package/@bresleveloper/starter`
 `Get-ChildItem -Recurse -Directory -Include bin,obj | ForEach-Object { git rm -r --cached $_.FullName }`
 
 * ##### git remove file from cashing:
-`git rm --cached <fullpath>`
+* `git rm --cached <fullpath>`       => remove a file
+* `git rm -r --cached <fullpath>`    => remove a folder
 
 
 ## claude code
