@@ -47,8 +47,9 @@ use `https://www.npmjs.com/package/@bresleveloper/starter`
 i like to use `tasks` folder to write my tasks for claude. i also like to use is for my logs files. i also like to have `console.log` file to quickly copy browser console for errors. so eventually its my goto file for errors or small prompts/tasks. therefor these 2 were born:
 
 
-* `l.md` -> `/l` , read tasks/console.log
-* `t.md` -> `/t` or `/t taskName`, create `tasks/taskName.md` with useful template
+* `l.md`  -> `/l` , read tasks/console.log
+* `t1.md` -> `/t1` or `/t1 taskName`,  create `tasks/taskName.md`  with useful template FOR TASK
+* `t2.md` -> `/t2` or `/t2 queryName`, create `tasks/queryName.md` with useful template FOR RESEARCH
 
 
 
