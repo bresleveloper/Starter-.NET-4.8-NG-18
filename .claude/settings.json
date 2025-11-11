@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "userPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'REMINDER: prefer Delegate tasks to agents. if delegating a Tasks to available agent, do not gather information, tell the agents to gather their needed information.'"
+          }
+        ]
+      }
+    ]
+  }
+}
