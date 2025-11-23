@@ -1,1 +1,1 @@
-read tasks/console.log
+read tasks/console.log, $ARGUMENTS
